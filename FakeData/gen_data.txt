@@ -27724,3 +27724,513 @@ Response: Task: Calculate Normalized Difference Vegetation Index (NDVI) and tree
 Location: Ward 2, District J, City U, Province V, Country W
 Time: 27/11/2018
 These diverse prompt/response pairs should help train the AI model effectively for the NDVI calculation task with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "tree counting/detection" task, with diverse and complex contexts:
+Prompt: I need you to count the number of trees in Ward 4, District A, City X, Province Y, Country Z, using imagery from 21/06/2012.
+Response: Task: Tree counting/detection
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 21/06/2012
+Prompt: Could you analyze an aerial image for tree counting/detection in Subdistrict B, District C, City P, Province Q, Country R? Please provide the results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 21/06/2012.
+Response: Task: Tree counting/detection
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 21/06/2012
+Prompt: I'm interested in tree counting/detection for Town M, District D, City Q, Province T, Country U, and I also need you to classify the task as 'calculate Normalized Difference Vegetation Index (NDVI).' The image date is 21/06/2012.
+Response: Task: Calculate Normalized Difference Vegetation Index (NDVI) and tree counting/detection
+Location: Town M, District D, City Q, Province T, Country U
+Time: 21/06/2012
+Prompt: Please perform tree counting/detection on an aerial image covering administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y. Include results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 21/06/2012.
+Response: Task: Tree counting/detection
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 21/06/2012
+Prompt: Analyze an aerial image for tree counting/detection in Village Z, District E, City R, Province W, Country V. Additionally, classify the task as 'cloud removal from aerial image.' The image date is 21/06/2012.
+Response: Task: Cloud removal from aerial image and tree counting/detection
+Location: Village Z, District E, City R, Province W, Country V
+Time: 21/06/2012
+Prompt: For the administrative area of Subdistrict K, District L, City D, Province E, Country F, analyze an aerial image for tree counting/detection. Also, provide the results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 21/06/2012.
+Response: Task: Tree counting/detection
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 21/06/2012
+Prompt: I require tree counting/detection analysis for the entire Province G, Country H, based on aerial imagery from 21/06/2012. Please provide the results in dd/mm/yyyy format.
+Response: Task: Tree counting/detection
+Location: Province G, Country H
+Time: 21/06/2012
+Prompt: Analyze an aerial image for tree counting/detection in Ward 2, District J, City U, Province V, Country W. Additionally, count any cars present in the image. The image date is 21/06/2012.
+Response: Task: Tree counting/detection and car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 21/06/2012
+These diverse prompt/response pairs should help train the AI model effectively for tree counting/detection tasks with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "land use/land cover in segmentation" task, with diverse and complex contexts:
+Prompt: Perform land use and land cover segmentation for Ward 4, District A, City X, Province Y, Country Z, using imagery from 24/02/2022.
+Response: Task: Land use/land cover in segmentation
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 24/02/2022
+Prompt: Analyze an aerial image for land use and land cover segmentation in Subdistrict B, District C, City P, Province Q, Country R. Please provide the results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 24/02/2022.
+Response: Task: Land use/land cover in segmentation
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 24/02/2022
+Prompt: I'm interested in land use/land cover segmentation for Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'tree counting/detection.' The image date is 24/02/2022.
+Response: Task: Tree counting/detection and land use/land cover in segmentation
+Location: Town M, District D, City Q, Province T, Country U
+Time: 24/02/2022
+Prompt: Please perform land use/land cover segmentation on an aerial image covering administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y. Include results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 24/02/2022.
+Response: Task: Land use/land cover in segmentation
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 24/02/2022
+Prompt: Analyze an aerial image for land use and land cover segmentation in Village Z, District E, City R, Province W, Country V. Also, count any aircraft-like objects present in the image. The image date is 24/02/2022.
+Response: Task: Aircraft category object detection and land use/land cover in segmentation
+Location: Village Z, District E, City R, Province W, Country V
+Time: 24/02/2022
+Prompt: For the administrative area of Subdistrict K, District L, City D, Province E, Country F, perform land use and land cover segmentation. Also, provide the results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 24/02/2022.
+Response: Task: Land use/land cover in segmentation
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 24/02/2022
+Prompt: I require land use and land cover segmentation analysis for the entire Province G, Country H, based on aerial imagery from 24/02/2022. Please provide the results in dd/mm/yyyy format.
+Response: Task: Land use/land cover in segmentation
+Location: Province G, Country H
+Time: 24/02/2022
+Prompt: Analyze an aerial image for land use and land cover segmentation in Ward 2, District J, City U, Province V, Country W. Additionally, count any cars present in the image. The image date is 24/02/2022.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection and land use/land cover in segmentation
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 24/02/2022
+These diverse prompt/response pairs should help train the AI model effectively for land use/land cover segmentation tasks with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "land use/land cover in segmentation" task with diverse and complex contexts:
+Prompt: Analyze an aerial image for land use/land cover segmentation in Ward 4, District A, City X, Province Y, Country Z, using imagery from 01/06/2022.
+Response: Task: Land use/land cover in segmentation
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 01/06/2022
+Prompt: Perform land use/land cover segmentation on an aerial image covering Subdistrict B, District C, City P, Province Q, Country R. Please provide the results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 01/06/2022.
+Response: Task: Land use/land cover in segmentation
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 01/06/2022
+Prompt: I'm interested in land use/land cover segmentation for Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'tree counting/detection.' The image date is 01/06/2022.
+Response: Task: Tree counting/detection and land use/land cover in segmentation
+Location: Town M, District D, City Q, Province T, Country U
+Time: 01/06/2022
+Prompt: Please analyze an aerial image for land use/land cover segmentation covering administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y. Include results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 01/06/2022.
+Response: Task: Land use/land cover in segmentation
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 01/06/2022
+Prompt: Perform land use/land cover segmentation and classify the task as 'cloud removal from aerial image' for Village Z, District E, City R, Province W, Country V. The image date is 01/06/2022.
+Response: Task: Cloud removal from aerial image and land use/land cover in segmentation
+Location: Village Z, District E, City R, Province W, Country V
+Time: 01/06/2022
+Prompt: For the administrative area of Subdistrict K, District L, City D, Province E, Country F, perform land use/land cover segmentation. Also, provide the results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 01/06/2022.
+Response: Task: Land use/land cover in segmentation
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 01/06/2022
+Prompt: I require land use/land cover segmentation analysis for the entire Province G, Country H, based on aerial imagery from 01/06/2022. Please provide the results in dd/mm/yyyy format.
+Response: Task: Land use/land cover in segmentation
+Location: Province G, Country H
+Time: 01/06/2022
+Prompt: Analyze an aerial image for land use/land cover segmentation in Ward 2, District J, City U, Province V, Country W. Additionally, count any cars present in the image. The image date is 01/06/2022.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection and land use/land cover in segmentation
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 01/06/2022
+These diverse prompt/response pairs should help train the AI model effectively for land use/land cover segmentation tasks with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "cloud removal from aerial image" task with diverse and complex contexts:
+Prompt: Remove clouds from an aerial image taken in Ward 4, District A, City X, Province Y, Country Z, on 14/06/2018.
+Response: Task: Cloud removal from aerial image
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 14/06/2018
+Prompt: Perform cloud removal from an aerial image covering Subdistrict B, District C, City P, Province Q, Country R. Please provide the results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 14/06/2018.
+Response: Task: Cloud removal from aerial image
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 14/06/2018
+Prompt: I need you to remove clouds from an aerial image taken in Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'tree counting/detection.' The image date is 14/06/2018.
+Response: Task: Tree counting/detection and cloud removal from aerial image
+Location: Town M, District D, City Q, Province T, Country U
+Time: 14/06/2018
+Prompt: Remove clouds from an aerial image covering administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y. Include results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 14/06/2018.
+Response: Task: Cloud removal from aerial image
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 14/06/2018
+Prompt: Analyze an aerial image for cloud removal in Village Z, District E, City R, Province W, Country V. Also, count any aircraft-like objects present in the image. The image date is 14/06/2018.
+Response: Task: Cloud removal from aerial image and aircraft category object detection
+Location: Village Z, District E, City R, Province W, Country V
+Time: 14/06/2018
+Prompt: For the administrative area of Subdistrict K, District L, City D, Province E, Country F, perform cloud removal from an aerial image. Also, provide the results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The image date is 14/06/2018.
+Response: Task: Cloud removal from aerial image
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 14/06/2018
+Prompt: I require cloud removal analysis for the entire Province G, Country H, based on aerial imagery from 14/06/2018. Please provide the results in dd/mm/yyyy format.
+Response: Task: Cloud removal from aerial image
+Location: Province G, Country H
+Time: 14/06/2018
+Prompt: Analyze an aerial image for cloud removal in Ward 2, District J, City U, Province V, Country W. Additionally, count any cars present in the image. The image date is 14/06/2018.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection and cloud removal from aerial image
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 14/06/2018
+These diverse prompt/response pairs should help train the AI model effectively for cloud removal from aerial image tasks with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "change of building/land/water body detection" task with diverse and complex contexts:
+Prompt: Detect changes in buildings, land, and water bodies in Ward 4, District A, City X, Province Y, Country Z, from 03/04/2020 to 10/08/2022.
+Response: Task: Change of building/land/water body detection
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 03/04/2020 - 10/08/2022
+Prompt: Analyze changes in buildings, land, and water bodies in Subdistrict B, District C, City P, Province Q, Country R, for the period 03/04/2020 to 10/08/2022. Provide results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Change of building/land/water body detection
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 03/04/2020 - 10/08/2022
+Prompt: I need to identify changes in buildings, land, and water bodies in Town M, District D, City Q, Province T, Country U, and classify the task as 'tree counting/detection' as well. The analysis should cover the period 03/04/2020 to 10/08/2022.
+Response: Task: Tree counting/detection and change of building/land/water body detection
+Location: Town M, District D, City Q, Province T, Country U
+Time: 03/04/2020 - 10/08/2022
+Prompt: Detect changes in buildings, land, and water bodies in administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y, from 03/04/2020 to 10/08/2022. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Change of building/land/water body detection
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 03/04/2020 - 10/08/2022
+Prompt: Analyze changes in buildings, land, and water bodies in Village Z, District E, City R, Province W, Country V, and also count any aircraft-like objects present in the area during the period 03/04/2020 to 10/08/2022.
+Response: Task: Change of building/land/water body detection and aircraft category object detection
+Location: Village Z, District E, City R, Province W, Country V
+Time: 03/04/2020 - 10/08/2022
+Prompt: For the administrative area of Subdistrict K, District L, City D, Province E, Country F, detect changes in buildings, land, and water bodies from 03/04/2020 to 10/08/2022. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Change of building/land/water body detection
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 03/04/2020 - 10/08/2022
+Prompt: Identify changes in buildings, land, and water bodies in the entire Province G, Country H, using data from 03/04/2020 to 10/08/2022. Please provide the results in dd/mm/yyyy format.
+Response: Task: Change of building/land/water body detection
+Location: Province G, Country H
+Time: 03/04/2020 - 10/08/2022
+Prompt: Analyze changes in buildings, land, and water bodies in Ward 2, District J, City U, Province V, Country W, and count any cars present in the area during the period 03/04/2020 to 10/08/2022.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection and change of building/land/water body detection
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 03/04/2020 - 10/08/2022
+These diverse prompt/response pairs should help train the AI model effectively for the "change of building/land/water body detection" task with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "calculate Normalized difference vegetation index (NDVI)" task with diverse and complex contexts:
+Prompt: Calculate the NDVI for Ward 4, District A, City X, Province Y, Country Z, using imagery from 04/07/2018.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 04/07/2018
+Prompt: Perform NDVI calculation for Subdistrict B, District C, City P, Province Q, Country R. Provide results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The imagery date is 04/07/2018.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 04/07/2018
+Prompt: I require NDVI calculation for Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'tree counting/detection.' The imagery date is 04/07/2018.
+Response: Task: Tree counting/detection and Calculate Normalized difference vegetation index (NDVI)
+Location: Town M, District D, City Q, Province T, Country U
+Time: 04/07/2018
+Prompt: Calculate the NDVI for administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y, using imagery from 04/07/2018. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 04/07/2018
+Prompt: Analyze the NDVI for Village Z, District E, City R, Province W, Country V. Additionally, count any aircraft-like objects present in the area. The imagery date is 04/07/2018.
+Response: Task: Aircraft category object detection and Calculate Normalized difference vegetation index (NDVI)
+Location: Village Z, District E, City R, Province W, Country V
+Time: 04/07/2018
+Prompt: Calculate the NDVI for the administrative area of Subdistrict K, District L, City D, Province E, Country F. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The imagery date is 04/07/2018.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 04/07/2018
+Prompt: I need NDVI calculation for the entire Province G, Country H, based on imagery from 04/07/2018. Please provide the results in dd/mm/yyyy format.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Province G, Country H
+Time: 04/07/2018
+Prompt: Calculate the NDVI for Ward 2, District J, City U, Province V, Country W. Additionally, count any cars present in the area using imagery from 04/07/2018.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection and Calculate Normalized difference vegetation index (NDVI)
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 04/07/2018
+These diverse prompt/response pairs should help train the AI model effectively for NDVI calculation tasks with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "aircraft category object detection" task with diverse and complex contexts:
+Prompt: Detect and categorize aircraft in Ward 4, District A, City X, Province Y, Country Z, using data from 23/12/2012.
+Response: Task: Aircraft category object detection
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 23/12/2012
+Prompt: Perform aircraft category object detection in Subdistrict B, District C, City P, Province Q, Country R. Provide results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 23/12/2012.
+Response: Task: Aircraft category object detection
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 23/12/2012
+Prompt: I require aircraft category object detection for Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'tree counting/detection.' The data date is 23/12/2012.
+Response: Task: Tree counting/detection and Aircraft category object detection
+Location: Town M, District D, City Q, Province T, Country U
+Time: 23/12/2012
+Prompt: Detect and categorize aircraft in administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y, using data from 23/12/2012. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Aircraft category object detection
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 23/12/2012
+Prompt: Analyze aircraft category object detection for Village Z, District E, City R, Province W, Country V. Additionally, count any cars present in the area. The data date is 23/12/2012.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection and Aircraft category object detection
+Location: Village Z, District E, City R, Province W, Country V
+Time: 23/12/2012
+Prompt: Perform aircraft category object detection in the administrative area of Subdistrict K, District L, City D, Province E, Country F. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 23/12/2012.
+Response: Task: Aircraft category object detection
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 23/12/2012
+Prompt: I need aircraft category object detection for the entire Province G, Country H, based on data from 23/12/2012. Please provide the results in dd/mm/yyyy format.
+Response: Task: Aircraft category object detection
+Location: Province G, Country H
+Time: 23/12/2012
+Prompt: Detect and categorize aircraft in Ward 2, District J, City U, Province V, Country W. Additionally, calculate the NDVI for the area using data from 23/12/2012.
+Response: Task: Calculate Normalized difference vegetation index (NDVI) and Aircraft category object detection
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 23/12/2012
+These diverse prompt/response pairs should help train the AI model effectively for the "aircraft category object detection" task with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "car/automobile/four-wheeler/motorcar vehicle-like object counting/detection" task with diverse and complex contexts:
+Prompt: Count and categorize car-like objects in Ward 4, District A, City X, Province Y, Country Z, using data from 04/05/2021.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 04/05/2021
+Prompt: Perform car-like object counting and classification in Subdistrict B, District C, City P, Province Q, Country R. Provide results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 04/05/2021.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 04/05/2021
+Prompt: I need car-like object counting in Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'cloud removal from aerial image.' The data date is 04/05/2021.
+Response: Task: Cloud removal from aerial image and Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Town M, District D, City Q, Province T, Country U
+Time: 04/05/2021
+Prompt: Count and categorize car-like objects in administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y, using data from 04/05/2021. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 04/05/2021
+Prompt: Analyze car-like object counting for Village Z, District E, City R, Province W, Country V. Additionally, calculate the NDVI for the area using data from 04/05/2021.
+Response: Task: Calculate Normalized difference vegetation index (NDVI) and Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Village Z, District E, City R, Province W, Country V
+Time: 04/05/2021
+Prompt: Perform car-like object counting in the administrative area of Subdistrict K, District L, City D, Province E, Country F. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 04/05/2021.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 04/05/2021
+Prompt: I need car-like object counting for the entire Province G, Country H, based on data from 04/05/2021. Please provide the results in dd/mm/yyyy format.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Province G, Country H
+Time: 04/05/2021
+Prompt: Count and categorize car-like objects in Ward 2, District J, City U, Province V, Country W. Additionally, detect any changes in building/land/water bodies using data from 04/05/2021.
+Response: Task: Change of building/land/water body detection and Car/automobile/four-wheeler/motorcar vehicle-like object counting/detection
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 04/05/2021
+These diverse prompt/response pairs should help train the AI model effectively for the "car/automobile/four-wheeler/motorcar vehicle-like object counting/detection" task with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "tree counting/detection" task with diverse and complex contexts:
+Prompt: Count and classify trees in Ward 4, District A, City X, Province Y, Country Z, using data from 11/12/2019.
+Response: Task: Tree counting/detection
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 11/12/2019
+Prompt: Conduct tree counting and classification in Subdistrict B, District C, City P, Province Q, Country R. Provide results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 11/12/2019.
+Response: Task: Tree counting/detection
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 11/12/2019
+Prompt: I need tree counting in Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'calculate Normalized difference vegetation index (NDVI).' The data date is 11/12/2019.
+Response: Task: Calculate Normalized difference vegetation index (NDVI) and Tree counting/detection
+Location: Town M, District D, City Q, Province T, Country U
+Time: 11/12/2019
+Prompt: Count and classify trees in administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y, using data from 11/12/2019. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Tree counting/detection
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 11/12/2019
+Prompt: Analyze tree counting for Village Z, District E, City R, Province W, Country V. Additionally, detect any changes in building/land/water bodies using data from 11/12/2019.
+Response: Task: Change of building/land/water body detection and Tree counting/detection
+Location: Village Z, District E, City R, Province W, Country V
+Time: 11/12/2019
+Prompt: Perform tree counting in the administrative area of Subdistrict K, District L, City D, Province E, Country F. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 11/12/2019.
+Response: Task: Tree counting/detection
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 11/12/2019
+Prompt: I need tree counting for the entire Province G, Country H, based on data from 11/12/2019. Please provide the results in dd/mm/yyyy format.
+Response: Task: Tree counting/detection
+Location: Province G, Country H
+Time: 11/12/2019
+Prompt: Count and classify trees in Ward 2, District J, City U, Province V, Country W. Additionally, perform cloud removal from aerial images in the same area using data from 11/12/2019.
+Response: Task: Cloud removal from aerial image and Tree counting/detection
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 11/12/2019
+These diverse prompt/response pairs should help train the AI model effectively for the "tree counting/detection" task with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "car/automobile/four-wheeler/motorcar vehicle like object counting/detection" task with diverse and complex contexts:
+Prompt: Count and classify car-like objects in Ward 4, District A, City X, Province Y, Country Z, using data from 05/07/2022.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Ward 4, District A, City X, Province Y, Country Z
+Time: 05/07/2022
+Prompt: Conduct vehicle counting and classification in Subdistrict B, District C, City P, Province Q, Country R. Provide results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 05/07/2022.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 05/07/2022
+Prompt: I need car counting in Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'cloud removal from aerial image.' The data date is 05/07/2022.
+Response: Task: Cloud removal from aerial image and Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Town M, District D, City Q, Province T, Country U
+Time: 05/07/2022
+Prompt: Count and classify car-like objects in administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y, using data from 05/07/2022. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 05/07/2022
+Prompt: Analyze car counting for Village Z, District E, City R, Province W, Country V. Additionally, detect any changes in building/land/water bodies using data from 05/07/2022.
+Response: Task: Change of building/land/water body detection and Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Village Z, District E, City R, Province W, Country V
+Time: 05/07/2022
+Prompt: Perform vehicle counting in the administrative area of Subdistrict K, District L, City D, Province E, Country F. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 05/07/2022.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 05/07/2022
+Prompt: I need car counting for the entire Province G, Country H, based on data from 05/07/2022. Please provide the results in dd/mm/yyyy format.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Province G, Country H
+Time: 05/07/2022
+Prompt: Count and classify car-like objects in Ward 2, District J, City U, Province V, Country W. Additionally, perform tree counting/detection in the same area using data from 05/07/2022.
+Response: Task: Tree counting/detection and Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 05/07/2022
+These diverse prompt/response pairs should help train the AI model effectively for the "car/automobile/four-wheeler/motorcar vehicle like object counting/detection" task with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "aircraft category object detection" task with diverse and complex contexts:
+Prompt: Detect and classify aircraft in Ward 7, District X, City Y, Province Z, Country A, using data from 25/09/2010.
+Response: Task: Aircraft category object detection
+Location: Ward 7, District X, City Y, Province Z, Country A
+Time: 25/09/2010
+Prompt: Perform aircraft category object detection in Subdistrict B, District C, City P, Province Q, Country R. Provide results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 25/09/2010.
+Response: Task: Aircraft category object detection
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 25/09/2010
+Prompt: I need aircraft detection in Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'cloud removal from aerial image.' The data date is 25/09/2010.
+Response: Task: Cloud removal from aerial image and Aircraft category object detection
+Location: Town M, District D, City Q, Province T, Country U
+Time: 25/09/2010
+Prompt: Detect and classify aircraft in administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y, using data from 25/09/2010. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Aircraft category object detection
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 25/09/2010
+Prompt: Analyze aircraft detection for Village Z, District E, City R, Province W, Country V. Additionally, detect any changes in building/land/water bodies using data from 25/09/2010.
+Response: Task: Change of building/land/water body detection and Aircraft category object detection
+Location: Village Z, District E, City R, Province W, Country V
+Time: 25/09/2010
+Prompt: Perform aircraft category object detection in the administrative area of Subdistrict K, District L, City D, Province E, Country F. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 25/09/2010.
+Response: Task: Aircraft category object detection
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 25/09/2010
+Prompt: I need aircraft detection for the entire Province G, Country H, based on data from 25/09/2010. Please provide the results in dd/mm/yyyy format.
+Response: Task: Aircraft category object detection
+Location: Province G, Country H
+Time: 25/09/2010
+Prompt: Detect and classify aircraft in Ward 2, District J, City U, Province V, Country W. Additionally, perform tree counting/detection in the same area using data from 25/09/2010.
+Response: Task: Tree counting/detection and Aircraft category object detection
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 25/09/2010
+These diverse prompt/response pairs should help train the AI model effectively for the "aircraft category object detection" task with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "cloud removal from aerial image" task with diverse and complex contexts:
+Prompt: Remove clouds from aerial images in Ward 5, District X, City Y, Province Z, Country A, using data from 05/11/2011.
+Response: Task: Cloud removal from aerial image
+Location: Ward 5, District X, City Y, Province Z, Country A
+Time: 05/11/2011
+Prompt: Perform cloud removal from aerial images in Subdistrict B, District C, City P, Province Q, Country R. Provide results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 05/11/2011.
+Response: Task: Cloud removal from aerial image
+Location: Subdistrict B, District C, City P, Province Q, Country R
+Time: 05/11/2011
+Prompt: I need cloud removal from aerial images in Town M, District D, City Q, Province T, Country U. Additionally, classify the task as 'land use/land cover in segmentation.' The data date is 05/11/2011.
+Response: Task: Land use/land cover in segmentation and Cloud removal from aerial image
+Location: Town M, District D, City Q, Province T, Country U
+Time: 05/11/2011
+Prompt: Remove clouds from aerial images in administrative areas from Ward 8 to Ward 12, District F, City S, Province X, Country Y, using data from 05/11/2011. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Cloud removal from aerial image
+Location: Ward 8-Ward 12, District F, City S, Province X, Country Y
+Time: 05/11/2011
+Prompt: Analyze cloud removal for Village Z, District E, City R, Province W, Country V. Additionally, detect any changes in building/land/water bodies using data from 05/11/2011.
+Response: Task: Change of building/land/water body detection and Cloud removal from aerial image
+Location: Village Z, District E, City R, Province W, Country V
+Time: 05/11/2011
+Prompt: Perform cloud removal from aerial images in the administrative area of Subdistrict K, District L, City D, Province E, Country F. Provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The data date is 05/11/2011.
+Response: Task: Cloud removal from aerial image
+Location: Subdistrict K, District L, City D, Province E, Country F
+Time: 05/11/2011
+Prompt: I need cloud removal for the entire Province G, Country H, based on data from 05/11/2011. Please provide the results in dd/mm/yyyy format.
+Response: Task: Cloud removal from aerial image
+Location: Province G, Country H
+Time: 05/11/2011
+Prompt: Remove clouds from aerial images in Ward 2, District J, City U, Province V, Country W. Additionally, perform tree counting/detection in the same area using data from 05/11/2011.
+Response: Task: Tree counting/detection and Cloud removal from aerial image
+Location: Ward 2, District J, City U, Province V, Country W
+Time: 05/11/2011
+These diverse prompt/response pairs should help train the AI model effectively for the "cloud removal from aerial image" task with varying locations, timeframes, and additional requests.
+Certainly! Here are some prompt/response pairs for training the AI model for the "aircraft category object detection" task with diverse and complex contexts:
+Prompt: Please perform aircraft category object detection in Ward A, District B, City C, Province D, Country E. The date for analysis is 08/03/2015.
+Response: Task: Aircraft category object detection
+Location: Ward A, District B, City C, Province D, Country E
+Time: 08/03/2015
+Prompt: I need to identify and categorize aircraft in aerial images over Town X, District Y, City Z, Province W, Country V. The analysis should cover the time period from 08/03/2015 to 15/03/2015.
+Response: Task: Aircraft category object detection
+Location: Town X, District Y, City Z, Province W, Country V
+Time: 08/03/2015 - 15/03/2015
+Prompt: Perform aircraft category object detection in Subdistrict M, District N, City P, Province Q, Country R. Additionally, please classify this task as 'tree counting/detection.' The analysis should consider data from 08/03/2015.
+Response: Task: Tree counting/detection and Aircraft category object detection
+Location: Subdistrict M, District N, City P, Province Q, Country R
+Time: 08/03/2015
+Prompt: Identify aircraft in Ward F, District G, City H, Province I, Country J, and classify them. Also, provide the results for both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The date for analysis is 08/03/2015.
+Response: Task: Aircraft category object detection
+Location: Ward F, District G, City H, Province I, Country J
+Time: 08/03/2015
+Prompt: Analyze and categorize aircraft in the administrative areas from Ward 1 to Ward 5, District K, City L, Province S, Country T. Use data from 08/03/2015 and provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Aircraft category object detection
+Location: Ward 1-Ward 5, District K, City L, Province S, Country T
+Time: 08/03/2015
+Prompt: I need aircraft category object detection results for the entire Province U, Country G, based on data from 08/03/2015. Please provide the results in dd/mm/yyyy format.
+Response: Task: Aircraft category object detection
+Location: Province U, Country G
+Time: 08/03/2015
+Prompt: Detect and categorize aircraft in Town Q, District O, City D, Province E, Country F. Additionally, classify this task as 'change of building/land/water body detection.' The data date is 08/03/2015.
+Response: Task: Change of building/land/water body detection and Aircraft category object detection
+Location: Town Q, District O, City D, Province E, Country F
+Time: 08/03/2015
+Prompt: Perform aircraft category object detection in Ward 8, District Z, City A, Province B, Country C. Also, detect and count trees in the same area. The data date is 08/03/2015.
+Response: Task: Aircraft category object detection and Tree counting/detection
+Location: Ward 8, District Z, City A, Province B, Country C
+Time: 08/03/2015
+These diverse prompt/response pairs should help train the AI model effectively for the "aircraft category object detection" task with varying locations, timeframes, and additional requests.
+Of course! Here are some diverse prompt/response pairs for training the AI model for the "car/automobile/four-wheeler/motorcar vehicle like object counting/detection" task:
+Prompt: Please count and detect car-like objects in Subdistrict Alpha, District Beta, City Gamma, Province Delta, Country Epsilon. The analysis should consider data from 19/11/2011.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Subdistrict Alpha, District Beta, City Gamma, Province Delta, Country Epsilon
+Time: 19/11/2011
+Prompt: I need to identify and classify vehicles in Ward 5, District Theta, City Iota, Province Kappa, Country Lambda. The analysis should cover the time period from 19/11/2011 to 26/11/2011.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Ward 5, District Theta, City Iota, Province Kappa, Country Lambda
+Time: 19/11/2011 - 26/11/2011
+Prompt: Perform car-like object detection in Subdistrict Mu, District Nu, City Xi, Province Omicron, Country Pi. Additionally, classify this task as 'tree counting/detection.' The analysis should consider data from 19/11/2011.
+Response: Task: Tree counting/detection and Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Subdistrict Mu, District Nu, City Xi, Province Omicron, Country Pi
+Time: 19/11/2011
+Prompt: Identify and count car-like objects in Ward Z, District Sigma, City Tau, Province Upsilon, Country Phi, and provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The date for analysis is 19/11/2011.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Ward Z, District Sigma, City Tau, Province Upsilon, Country Phi
+Time: 19/11/2011
+Prompt: Analyze and detect car-like objects in the administrative areas from Ward 1 to Ward 10, District Omega, City Psi, Province Chi, Country Psi. Use data from 19/11/2011 and provide results in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Ward 1-Ward 10, District Omega, City Psi, Province Chi, Country Psi
+Time: 19/11/2011
+Prompt: I need car-like object detection results for the entire Province Delta, Country Epsilon, based on data from 19/11/2011. Please provide the results in dd/mm/yyyy format.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Province Delta, Country Epsilon
+Time: 19/11/2011
+Prompt: Detect and count car-like objects in Town Rho, District Phi, City Omega, Province Kappa, Country Lambda. Additionally, classify this task as 'change of building/land/water body detection.' The data date is 19/11/2011.
+Response: Task: Change of building/land/water body detection and Car/automobile/four-wheeler/motorcar vehicle like object counting/detection
+Location: Town Rho, District Phi, City Omega, Province Kappa, Country Lambda
+Time: 19/11/2011
+Prompt: Perform car-like object detection in Ward 8, District Delta, City Sigma, Province Chi, Country Psi. Also, identify trees in the same area. The data date is 19/11/2011.
+Response: Task: Car/automobile/four-wheeler/motorcar vehicle like object counting/detection and Tree counting/detection
+Location: Ward 8, District Delta, City Sigma, Province Chi, Country Psi
+Time: 19/11/2011
+These diverse prompt/response pairs should help train the AI model effectively for the "car/automobile/four-wheeler/motorcar vehicle like object counting/detection" task with varying locations, timeframes, and additional requests.
+Certainly, here are some diverse prompt/response pairs for training the AI model for the "calculate Normalized difference vegetation index (NDVI)" task:
+Prompt: Calculate the NDVI for Ward 3, District Alpha, City Beta, Province Gamma, Country Delta, using data from 06/06/2014.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Ward 3, District Alpha, City Beta, Province Gamma, Country Delta
+Time: 06/06/2014
+Prompt: I need the NDVI calculation for the entire Subdistrict Epsilon, District Zeta, City Eta, Province Theta, Country Iota, for the time period between 01/06/2014 and 15/06/2014.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Subdistrict Epsilon, District Zeta, City Eta, Province Theta, Country Iota
+Time: 01/06/2014 - 15/06/2014
+Prompt: Calculate NDVI for Ward 7, District Kappa, City Lambda, Province Mu, Country Nu, and classify this task as 'tree counting/detection.' The data date is 06/06/2014.
+Response: Task: Tree counting/detection and Calculate Normalized difference vegetation index (NDVI)
+Location: Ward 7, District Kappa, City Lambda, Province Mu, Country Nu
+Time: 06/06/2014
+Prompt: Perform NDVI calculation in Town Xi, District Omicron, City Pi, Province Rho, Country Sigma, and classify this task as 'cloud removal from aerial image.' Use data from 06/06/2014.
+Response: Task: Cloud removal from aerial image and Calculate Normalized difference vegetation index (NDVI)
+Location: Town Xi, District Omicron, City Pi, Province Rho, Country Sigma
+Time: 06/06/2014
+Prompt: Calculate NDVI for the administrative areas from Ward 1 to Ward 10, District Tau, City Upsilon, Province Phi, Country Chi, for the time period between 06/06/2014 and 13/06/2014.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Ward 1-Ward 10, District Tau, City Upsilon, Province Phi, Country Chi
+Time: 06/06/2014 - 13/06/2014
+Prompt: Calculate NDVI for Ward Z, District Omega, City Psi, Province Omega, Country Lambda, and provide the result in both dd/mm/yyyy and dd/mm/yyyy-dd/mm/yyyy formats. The date for analysis is 06/06/2014.
+Response: Task: Calculate Normalized difference vegetation index (NDVI)
+Location: Ward Z, District Omega, City Psi, Province Omega, Country Lambda
+Time: 06/06/2014
+Prompt: Calculate NDVI for the entire Province Phi, Country Chi, based on data from 06/06/2014. Also, classify this task as 'aircraft category object detection.'
+Response: Task: Aircraft category object detection and Calculate Normalized difference vegetation index (NDVI)
+Location: Province Phi, Country Chi
+Time: 06/06/2014
+Prompt: Calculate NDVI for Ward 5, District Delta, City Epsilon, Province Zeta, Country Eta, and classify this task as 'change of building/land/water body detection.' The data date is 06/06/2014.
+Response: Task: Change of building/land/water body detection and Calculate Normalized difference vegetation index (NDVI)
+Location: Ward 5, District Delta, City Epsilon, Province Zeta, Country Eta
+Time: 06/06/2014
+These prompt/response pairs should provide a diverse set of scenarios for training the AI model for the "calculate Normalized difference vegetation index (NDVI)" task, considering different locations, timeframes, and additional classification tasks.
