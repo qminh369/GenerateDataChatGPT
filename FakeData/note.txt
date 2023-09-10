@@ -1,0 +1,4 @@
+tạo ra các file json gồm 3 thành phần
++ prompt: Các câu hỏi mà người dùng có thể hỏi chatbot
++ respone: chatbot đưa ra câu trả lời gồm task, location, time 
++ ground truth

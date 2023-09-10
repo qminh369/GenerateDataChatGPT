@@ -1,0 +1,73 @@
+Certainly! Here are some prompt/response pairs for training the AI model to perform "car/automobile/four-wheeler/motorcar vehicle like object counting/detection" tasks in various locations and dates:
+Prompt 1:
+Request: Count and classify car-like objects in Ward 4, Los Angeles, USA, from 01/01/2019 to 31/12/2019.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Ward 4, Los Angeles, California, USA
+Time: 01/01/2019 - 31/12/2019
+Classification: Car
+Prompt 2:
+Request: Detect motor vehicles in Commune 2, Paris, France, from 01/07/2020 to 30/06/2021.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Commune 2, Paris, Île-de-France, France
+Time: 01/07/2020 - 30/06/2021
+Classification: Car
+Prompt 3:
+Request: Count automobile-like objects in Subdistrict 3, Tokyo, Japan, from 01/03/2022 to 28/02/2023.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Subdistrict 3, Tokyo, Japan
+Time: 01/03/2022 - 28/02/2023
+Classification: Car
+Prompt 4:
+Request: Detect and classify four-wheeler vehicles in Village 5, Munich, Germany, from 01/10/2023 to 30/09/2024.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Village 5, Bavaria, Germany
+Time: 01/10/2023 - 30/09/2024
+Classification: Car
+Prompt 5:
+Request: Count motorcars in Town 1, London, UK, from 01/05/2025 to 30/04/2026.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Town 1, Greater London, UK
+Time: 01/05/2025 - 30/04/2026
+Classification: Car
+Prompt 6:
+Request: Detect and classify automobile-like objects in Ward 3, New York City, USA, from 01/11/2026 to 31/10/2027.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Ward 3, New York City, New York, USA
+Time: 01/11/2026 - 31/10/2027
+Classification: Car
+Prompt 7:
+Request: Count four-wheeler vehicles in Commune 5, Rome, Italy, from 01/08/2028 to 31/07/2029.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Commune 5, Rome, Lazio, Italy
+Time: 01/08/2028 - 31/07/2029
+Classification: Car
+Prompt 8:
+Request: Detect and classify car-like objects in Subdistrict 2, Sydney, Australia, from 01/04/2030 to 31/03/2031.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Subdistrict 2, New South Wales, Australia
+Time: 01/04/2030 - 31/03/2031
+Classification: Car
+Prompt 9:
+Request: Count motor vehicles in Village 1, Cape Town, South Africa, from 01/12/2032 to 30/11/2033.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Village 1, Western Cape, South Africa
+Time: 01/12/2032 - 30/11/2033
+Classification: Car
+Prompt 10:
+Request: Detect and classify four-wheeler vehicles in Ward 8, Toronto, Canada, from 01/06/2034 to 31/05/2035.
+Response:
+Task: Car/Automobile/Four-Wheeler/Motorcar Vehicle Like Object Counting/Detection
+Location: Ward 8, Toronto, Ontario, Canada
+Time: 01/06/2034 - 31/05/2035
+Classification: Car
+These examples provide diverse training data for the AI model to perform car/automobile/four-wheeler/motorcar vehicle-like object counting and detection in different locations and date ranges.
+Of course! Here are some prompt/response pairs for training the AI model to perform "calculate Normalized difference vegetation index (NDVI)" tasks in various locations and date ranges:
