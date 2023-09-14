@@ -1,0 +1,13 @@
+<textarea class="text-area" id="searchbox" name="searchbox" type="text" rows="1" enterkeyhint="send" dir="" autocapitalize="off" autocomplete="off" aria-autocomplete="both" spellcheck="false" aria-label="Ask Bing" autocorrect="off" maxlength="2000" placeholder="Ask me anything..." autofocus=""></textarea>
+
+<button class="button" type="button" aria-label="Submit" disabled="">
+      <!----><svg-icon type="send" size="20" style="--icon-size: 20px;"></svg-icon>
+      
+          <cib-button-descriptor description="Submit" product="bing"></cib-button-descriptor>
+        
+    </button>
+
+<div class="ac-textBlock" style=""><p>Here is an example of a prompt/response pair for the model:</p>
+<p>Prompt: I need to calculate the Normalized difference water index (NDWI) for the area of Phường Bách Khoa, Hanoi, Vietnam. This is a measure of the amount of water in vegetation and soil. It can help to monitor drought, irrigation, and flooding.</p>
+<p>Response: To calculate the NDWI, I need to know the time period you are interested in. Please provide me with a start date and an end date in the format dd/mm/yyyy or dd/mm/yyyy-dd/mm/yyyy. For example, you can say 01/01/2020 or 01/01/2020-31/12/2020.</p>
+</div>

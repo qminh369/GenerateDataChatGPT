@@ -1,0 +1,137 @@
+prompt,response,ground truth
+"Please remove the clouds from an aerial image of the Eiffel Tower in Paris, France, taken on 15/07/2022.","Task: Cloud removal from aerial image
+Location: Eiffel Tower, Paris, France
+Time: 15/07/2022","cloud removal from aerial image
+"
+"I need assistance in eliminating clouds from an aerial photograph of Central Park in New York City, USA, dated 10/03/2010 to 20/03/2010.","Task: Cloud removal from aerial image
+Location: Central Park, New York City, USA
+Time: 10/03/2010-20/03/2010","cloud removal from aerial image
+"
+"Can you help me remove clouds from an aerial picture of the Sydney Opera House, Sydney, New South Wales, Australia, captured on 02/12/2015?","Task: Cloud removal from aerial image
+Location: Sydney Opera House, Sydney, New South Wales, Australia
+Time: 02/12/2015","cloud removal from aerial image
+"
+"I require cloud removal from an aerial image of the Great Wall of China in the Badaling section, Yanqing District, Beijing, China, on 25/09/2018.","Task: Cloud removal from aerial image
+Location: Great Wall of China, Badaling, Yanqing District, Beijing, China
+Time: 25/09/2018","cloud removal from aerial image
+"
+"Please perform cloud removal on an aerial photograph of the Grand Canyon, Arizona, USA, from 01/06/2010 to 15/06/2010.","Task: Cloud removal from aerial image
+Location: Grand Canyon, Arizona, USA
+Time: 01/06/2010-15/06/2010","cloud removal from aerial image
+"
+"I'm looking for assistance with removing clouds from an aerial image of the Pyramids of Giza, Giza, Egypt, taken on 12/11/2019.","Task: Cloud removal from aerial image
+Location: Pyramids of Giza, Giza, Egypt
+Time: 12/11/2019","cloud removal from aerial image
+"
+"Can you help me clear the clouds from an aerial photograph of Mount Everest, Khumjung, Solu-Khumbu, Nepal, dated 05/04/2015 to 10/04/2015?","Task: Cloud removal from aerial image
+Location: Mount Everest, Khumjung, Solu-Khumbu, Nepal
+Time: 05/04/2015-10/04/2015","cloud removal from aerial image
+"
+"I need cloud removal services for an aerial image of the Vatican City, Vatican City, captured on 20/07/2017.","Task: Cloud removal from aerial image
+Location: Vatican City, Vatican City
+Time: 20/07/2017","cloud removal from aerial image
+"
+"Please calculate the Normalized Difference Vegetation Index (NDVI) for agricultural fields in Ward 5, Nguyen Binh Village, Thai Nguyen City, Thai Nguyen Province, Vietnam, for the period 01/01/2022 to 28/02/2022.","Task: Calculate NDVI
+Location: Ward 5, Nguyen Binh Village, Thai Nguyen City, Thai Nguyen Province, Vietnam
+Time: 01/01/2022-28/02/2022","calculate Normalized difference vegetation index (NDVI)
+"
+"I need NDVI calculations for a forested area in the Subdistrict of Evergreen, Jefferson County, Colorado, USA, on 15/05/2020.","Task: Calculate NDVI
+Location: Subdistrict of Evergreen, Jefferson County, Colorado, USA
+Time: 15/05/2020","calculate Normalized difference vegetation index (NDVI)
+"
+"Can you assist me in computing the NDVI values for a vineyard in the commune of Saint-Émilion, Gironde, France, for the entire year 2021?","Task: Calculate NDVI
+Location: Commune of Saint-Émilion, Gironde, France
+Time: 01/01/2021-31/12/2021","calculate Normalized difference vegetation index (NDVI)
+"
+"I require NDVI calculations for a national park in the district of Banff, Alberta, Canada, from 01/06/2019 to 30/06/2019.","Task: Calculate NDVI
+Location: National Park, Banff, Alberta, Canada
+Time: 01/06/2019-30/06/2019","calculate Normalized difference vegetation index (NDVI)
+"
+"Please perform NDVI analysis for a rice paddy in the village of Ubud, Gianyar Regency, Bali, Indonesia, on 10/09/2015.","Task: Calculate NDVI
+Location: Village of Ubud, Gianyar Regency, Bali, Indonesia
+Time: 10/09/2015","calculate Normalized difference vegetation index (NDVI)
+"
+"I'm looking for assistance with NDVI calculations for a desert region in the district of Sahara, Egypt, covering the last decade, from 01/01/2012 to 31/12/2021.","Task: Calculate NDVI
+Location: Desert region, Sahara, Egypt
+Time: 01/01/2012-31/12/2021","calculate Normalized difference vegetation index (NDVI)
+"
+"Can you help me compute NDVI values for a coastal area in the town of Monterey, California, USA, for the period 01/03/2018 to 31/03/2018?","Task: Calculate NDVI
+Location: Coastal area, Monterey, California, USA
+Time: 01/03/2018-31/03/2018","calculate Normalized difference vegetation index (NDVI)
+"
+"I need NDVI calculations for a tea plantation in the village of Darjeeling, Darjeeling district, West Bengal, India, on 20/07/2020.","Task: Calculate NDVI
+Location: Village of Darjeeling, Darjeeling district, West Bengal, India
+Time: 20/07/2020","calculate Normalized difference vegetation index (NDVI)
+"
+"I need to detect changes in building structures in Ward 3, District 5, Ho Chi Minh City, Vietnam, for the time period 01/01/2019 to 31/12/2019.","Task: Change of building detection
+Location: Ward 3, District 5, Ho Chi Minh City, Vietnam
+Time: 01/01/2019-31/12/2019","change of building/land/water body detection
+"
+"Please perform a change detection analysis for water bodies in the commune of Annecy-le-Vieux, Haute-Savoie, France, during the years 2015 to 2020.","Task: Change of water body detection
+Location: Commune of Annecy-le-Vieux, Haute-Savoie, France
+Time: 01/01/2015-31/12/2020","change of building/land/water body detection
+"
+"Can you help me identify changes in land use in the subdistrict of Greenfield, Franklin County, Massachusetts, USA, for the last decade, from 01/01/2010 to 31/12/2019?","Task: Change of land use detection
+Location: Subdistrict of Greenfield, Franklin County, Massachusetts, USA
+Time: 01/01/2010-31/12/2019","change of building/land/water body detection
+"
+"I require a change detection analysis for buildings in the town of Kyoto, Kyoto Prefecture, Japan, for the year 2018.","Task: Change of building detection
+Location: Kyoto, Kyoto Prefecture, Japan
+Time: 01/01/2018-31/12/2018","change of building/land/water body detection
+"
+"Please detect changes in water bodies within the village of Venice, Venice Province, Italy, for the time period 01/01/2017 to 31/12/2017.","Task: Change of water body detection
+Location: Village of Venice, Venice Province, Italy
+Time: 01/01/2017-31/12/2017","change of building/land/water body detection
+"
+"I'm looking for assistance with detecting changes in land features in the ward of Manhattan, New York City, USA, from 01/01/2016 to 31/12/2016.","Task: Change of land detection
+Location: Manhattan, New York City, USA
+Time: 01/01/2016-31/12/2016","change of building/land/water body detection
+"
+"Can you help me identify changes in buildings in the city of Berlin, Berlin State, Germany, for the year 2020?","Task: Change of building detection
+Location: Berlin, Berlin State, Germany
+Time: 01/01/2020-31/12/2020","change of building/land/water body detection
+"
+"I need to detect changes in water bodies in the province of Ontario, Canada, for the last five years, from 01/01/2015 to 31/12/2019.","Task: Change of water body detection
+Location: Province of Ontario, Canada
+Time: 01/01/2015-31/12/2019","change of building/land/water body detection
+"
+"Please calculate the Soil-Adjusted Vegetation Index (SAVI) for Ward 4, District 5, Ho Chi Minh City, Vietnam, for the time period of 15/02/2012-28/02/2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Ward 4, District 5, Ho Chi Minh City, Vietnam
+Time: 15/02/2012-28/02/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"I need you to perform the SAVI calculation for Subdistrict B, Pune, Maharashtra, India, on 20/04/2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Subdistrict B, Pune, Maharashtra, India
+Time: 20/04/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"Calculate the SAVI for Townsville, Queensland, Australia, on the specific date of 04/09/2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Townsville, Queensland, Australia
+Time: 04/09/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"I require you to compute the SAVI for Commune X, Yen Bai Province, Vietnam, on 12/06/2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Commune X, Yen Bai Province, Vietnam
+Time: 12/06/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"Could you please calculate the SAVI for Ward 3, District 8, Ho Chi Minh City, Vietnam, for the entire month of July 2012?","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Ward 3, District 8, Ho Chi Minh City, Vietnam
+Time: 01/07/2012-31/07/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"Calculate the SAVI for Subdistrict C, Pune, Maharashtra, India, on 08/07/2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Subdistrict C, Pune, Maharashtra, India
+Time: 08/07/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"Please perform SAVI calculation for Village Z, Yavatmal, Maharashtra, India, on 19/09/2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Village Z, Yavatmal, Maharashtra, India
+Time: 19/09/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"I need you to calculate the SAVI for District P, Jakarta, Indonesia, for the entire month of October 2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: District P, Jakarta, Indonesia
+Time: 01/10/2012-31/10/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"Calculate the SAVI for Ward 6, District 4, Hanoi, Vietnam, on 25/12/2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Ward 6, District 4, Hanoi, Vietnam
+Time: 25/12/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"
+"Compute the SAVI for Subdistrict D, Pune, Maharashtra, India, on 03/03/2012.","Task: Calculate Soil-Adjusted Vegetation Index (SAVI)
+Location: Subdistrict D, Pune, Maharashtra, India
+Time: 03/03/2012","calculate Soil-Adjusted Vegetation Index (SAVI)
+"

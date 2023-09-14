@@ -18,13 +18,6 @@ import datetime
 
 # Thư viện undetected_chromedriver để vượt captcha
 chrome_options = Options()
-chrome_options.add_argument("start-maximized")
-chrome_options.add_argument("disable-infobars")
-chrome_options.add_argument("--disable-extensions")
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--disable-application-cache')
-chrome_options.add_argument('--disable-gpu')
-chrome_options.add_argument("--disable-dev-shm-usage")
 driver = uc.Chrome(chrome_options=chrome_options)
 
 '''
@@ -104,50 +97,61 @@ for i in range(0, len(comments)-5, 5):
 '''
 
 
-# Mở trang web ChatGPT
-driver.get('https://chat.openai.com/auth/login')
+# Mở trang web Bard
+driver.get('https://bard.google.com/')
 time.sleep(3)
 
-# Đăng nhập tài khoản chatgpt
-button_login = driver.find_element(By.XPATH, "//div[@class='relative -top-[1px]']")
+# Click Sign in
+button_login = driver.find_element(By.TAG_NAME,"button")
+#button_login = driver.find_element(By.XPATH, "//span[@class='ng-star-inserted']")
 button_login.click()
 time.sleep(3)
 
-accounts = ['quangminhpulisic123@gmail.com', 'niallerjamespotter@gmail.com', 'phanan1227@gmail.com', 'tungteng0401@gmail.com', 'sktblank2212@gmail.com']
-passwords = ['minhboy123', '12345678', 'phanlacan12', '@jTtM*wUvT4B62.', 'minhkepa2212']
+#accounts = ['quangminhpulisic123@gmail.com', 'niallerjamespotter@gmail.com', 'phanan1227@gmail.com', 'tungteng0401@gmail.com', 'sktblank2212@gmail.com']
+#passwords = ['minhboy123', '12345678', 'phanlacan12', '@jTtM*wUvT4B62.', 'minhkepa2212']
 
-idx_rand = randrange(0, len(accounts))
+#idx_rand = randrange(0, len(accounts))
+
+account = 'quangminhpulisic123@gmail.com'
+password = 'Quangminhdepzai123@'
+
+account_verify  = 'quangminhys2212@gmail.com'
+#password = 'Minhboy123@'
 
 # Nhập tài khoản, mật khẩu
-mail = driver.find_elements(By.TAG_NAME, "input")[1]
-mail.send_keys(accounts[idx_rand])
-time.sleep(1)
+#mail = driver.find_element(By.XPATH, "//input[@class='whsOnd zHQkBf']")
+#mail = driver.find_element(By.XPATH, "//div[@class='Xb9hP']")
+mail = driver.find_element(By.TAG_NAME, "input")
+mail.send_keys(account)
+# Button Next
 btn = driver.find_elements(By.TAG_NAME,"button")[0]
 btn.click()
 
-pw = driver.find_elements(By.TAG_NAME,"input")[2]
-pw.send_keys(passwords[idx_rand])
-time.sleep(1)
-# Button continue
-btn = driver.find_element(By.XPATH, "//button[@class = 'c4c7ab148 cedb58860 c9857f26f c00f6c27d _button-login-password']")
+mail_verify = driver.find_element(By.TAG_NAME, "input")
+mail_verify.send_keys(account_verify)
+# Button Next
+btn = driver.find_elements(By.TAG_NAME,"button")[0]
 btn.click()
-#btn = driver.find_elements(By.TAG_NAME,"button")[0]
-#btn.click()
-time.sleep(2)
+time.sleep(3)
+
+full_name = driver.find_elements(By.TAG_NAME,"input")[0]
+full_name.send_keys("Nguyễn")
+time.sleep(3)
+
+last_name = driver.find_elements(By.TAG_NAME,"input")[1]
+last_name.send_keys("Quang Minh")
+
+btn = driver.find_elements(By.TAG_NAME,"button")[0]
+btn.click()
 
 #time.sleep(30)
-# 3 Button sau đó
-btn1 = driver.find_element(By.XPATH, "//button[@class = 'btn relative btn-primary']")
-btn1.click()
-'''
+
+pw = driver.find_element(By.TAG_NAME,"input")
+pw.send_keys(password)
+# Button Next
+btn = driver.find_elements(By.TAG_NAME,"button")[0]
+btn.click()
 time.sleep(2)
-btn2 = driver.find_element(By.XPATH, "//button[@class = 'btn relative btn-neutral ml-auto']")
-btn2.click()
-time.sleep(2)
-btn3 = driver.find_element(By.XPATH, "//button[@class = 'btn relative btn-primary ml-auto']")
-btn3.click()
-time.sleep(2)
-'''
 
 '''
 for i in range(3):
@@ -169,45 +173,34 @@ for i in range(3):
     time.sleep(5)
 '''
 
+
+
 with open('B:\\TT\Generate Data\\FakeData\\general_prompt.txt', 'r') as file:
     general_prompt = file.read()
 
-#number_of_examples = 100
-number_of_examples = 50
-#number_of_examples = 20
-#number_of_examples = 10
-#number_of_examples = 5
-#number_of_examples = 3
-#number_of_examples = 1
+number_of_examples = 3
 
-#gen_per_chat = 7
-#gen_per_chat = 8
-#gen_per_chat = 9
-gen_per_chat = 10
-
-start_date = datetime.date(2009, 1, 1)
-end_date = datetime.date(2023, 9, 13)
+start_date = datetime.date(2010, 1, 1)
+end_date = datetime.date(2023, 9, 8)
 
 PATH_GEN_DATA = 'B:\\TT\Generate Data\FakeData\\gen_data.txt'
 PATH_GEN_MISSING_LOCATION_DATA = 'B:\\TT\Generate Data\FakeData\\gen_data_missing_location.txt'
 PATH_GEN_MISSING_TIME_DATA = 'B:\\TT\Generate Data\FakeData\\gen_data_missing_time.txt'
-PATH_GEN_NEW_FULL_DATA = 'B:\\TT\\Generate Data\\FakeData\\new_full_data.txt'
-PATH_GEN_NEW_FULL_DATA_GROUND_TRUTH = 'B:\\TT\\Generate Data\\FakeData\\ground_truth_new_full_data.txt'
 
 for i in range(number_of_examples):
     rand_date = random_date(start_date, end_date).strftime('%d/%m/%Y')
     
     ## Choose task and give use its synonym
-    all_task = ["calculate Normalized difference vegetation index (NDVI)", "calculate Normalized difference water index (NDWI)", "calculate Soil-Adjusted Vegetation Index (SAVI)", "tree counting/detection", "cloud removal from aerial image", "change of building/land/water body detection", "land use/land cover in segmentation", "aircraft category object detection", "car/ship/automobile/four-wheeler/motorcar vehicle like object counting/detection", 'none']
+    all_task = ["calculate Normalized difference vegetation index (NDVI)", "tree counting/detection", "cloud removal from aerial image", "change of building/land/water body detection", "land use/land cover in segmentation", "aircraft category object detection", "car/automobile/four-wheeler/motorcar vehicle like object counting/detection", 'none']
     chosen_task = random.choice(all_task[:-1])
     # task_prompt = f'Return synonym of "{chosen_task}" that still keep the origin meaning of object need to identify'
     # use_task = normalGPT(prompt=task_prompt).replace('\n','').lower()
     # print("TASK:",chosen_task, '---' , use_task)
 
     # Correct
-    prompt = f'A model that takes in a long request with description to perform only "{chosen_task}" task, tasks require location (administrative area ward/commune/subdistrict/town/village level), time (able convert to dd/mm/yyyy or dd/mm/yyyy-dd/mm/yyyy format, consider today is {rand_date}) to perform. Response will have 3 things: task need to do, location, time, location following format: ward/district/city/province/country, time following format: dd/mm/yyyy or dd/mm/yyyy-dd/mm/yyyy. Give response in format "Task:...\nLocation:...\nTime:..."'
+    # prompt = f'A model that takes in a long request with description to perform only "{chosen_task}" task, tasks require location (administrative area ward/commune/subdistrict/town/village level), time (able convert to dd/mm/yyyy or dd/mm/yyyy-dd/mm/yyyy format, consider today is {rand_date}) to perform. Response will have 3 things: task need to do, location, time and then classify task to one of these {all_task}, location following format: ward/district/city/province/country, time following format: dd/mm/yyyy or dd/mm/yyyy-dd/mm/yyyy. Give response in format "Task:...\nLocation:...\nTime:..."'
     # prompt = f'A model that takes in a long question with description to perform "{chosen_task}", tasks require location (administrative area ward/commune/subdistrict/town/village level), time (able convert to format dd/mm/yyyy or dd/mm/yyyy-dd/mm/yyyy, consider today is {rand_date}) to perform. Relative time is accepted for example: today, last month, previous summer,..., but location will not given or not following format so ask for specific location in response to retrieve it, do not say anything else'
-    # prompt = f'A model that takes in a long request with description to perform "{chosen_task}" task , tasks require location (administrative area ward/commune/subdistrict/town/village level, most likely in India, Vietnam, Thailand, Singapore, Indonesia), time (able convert to format dd/mm/yyyy or dd/mm/yyyy-dd/mm/yyyy, consider today is {rand_date}) to perform. Location is provide but time will not given or not able convert to right format in input prompt so ask in response to retrieve it'
+    prompt = f'A model that takes in a long request with description to perform "{chosen_task}" task , tasks require location (administrative area ward/commune/subdistrict/town/village level, most likely in India, Vietnam, Thailand, Singapore, Indonesia), time (able convert to format dd/mm/yyyy or dd/mm/yyyy-dd/mm/yyyy, consider today is {rand_date}) to perform. Location is provide but time will not given or not able convert to right format in input prompt so ask in response to retrieve it'
     
     # Interact chatgpt
     text_area = driver.find_element(By.TAG_NAME, "textarea")
@@ -217,19 +210,12 @@ for i in range(number_of_examples):
     btn_answer = driver.find_element(By.XPATH, "//button[@class = 'absolute p-1 rounded-md md:bottom-3 md:p-2 md:right-3 dark:hover:bg-gray-900 dark:disabled:hover:bg-transparent right-2 disabled:text-gray-400 enabled:bg-brand-purple text-white bottom-1.5 transition-colors disabled:opacity-40']")
     btn_answer.click()
     time.sleep(30)
-    #time.sleep(40)
-    #time.sleep(60)
-    
 
-    answer = driver.find_elements(By.XPATH, "//div[@class = 'markdown prose w-full break-words dark:prose-invert light']")[i]
+    answer = driver.find_elements(By.XPATH, "//div[@class = 'response-container-content ng-tns-c1383519017-2']")[i]
     result = answer.text
     print(result)
-    
-    with open(PATH_GEN_NEW_FULL_DATA_GROUND_TRUTH, 'a', encoding = 'utf-8') as file:
-        for _ in range(gen_per_chat):
-            file.write(chosen_task + '\n')
 
-    with open(PATH_GEN_NEW_FULL_DATA , 'a', encoding = 'utf-8') as file:
+    with open(PATH_GEN_MISSING_TIME_DATA , 'a', encoding = 'utf-8') as file:
         file.write(result + '\n')
 
     time.sleep(5)

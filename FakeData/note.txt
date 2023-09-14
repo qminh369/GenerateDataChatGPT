@@ -2,3 +2,8 @@ tạo ra các file json gồm 3 thành phần
 + prompt: Các câu hỏi mà người dùng có thể hỏi chatbot
 + respone: chatbot đưa ra câu trả lời gồm task, location, time 
 + ground truth
+
+
+1 lần run selenium (100 dòng) -> mất 4GB dung lượng ổ C
+
+-> Thử giảm xuống 50 bản ghi mỗi lần chạy
